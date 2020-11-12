@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8375407902475312900}
   - component: {fileID: 8375407902475312901}
-  - component: {fileID: 8375407902475312902}
   - component: {fileID: 8375407902475312903}
   - component: {fileID: 3026243988001201917}
   - component: {fileID: 4023246126813565434}
@@ -87,22 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8375407902475312902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8375407902475312922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47d03533f9ff8ff438ce9d33cd36e0ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  maxHealth: 5
-  projectilePrefab: {fileID: 1626676297561554733, guid: f62cfe29d46dedd4a9ccf5d04b05788f, type: 3}
-  timeInvincible: 2
 --- !u!114 &8375407902475312903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,7 +100,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   maxHealth: 5
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 8052157348717850139, guid: f62cfe29d46dedd4a9ccf5d04b05788f, type: 3}
+  throwSound: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
+  hitSound: {fileID: 8300000, guid: ae904c7305df7344d86b2092c0cb3a26, type: 3}
   timeInvincible: 2
 --- !u!50 &3026243988001201917
 Rigidbody2D:
